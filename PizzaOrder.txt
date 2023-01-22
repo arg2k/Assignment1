@@ -1,0 +1,6 @@
+3.) Create Inputs and outputs Dominos Pizza Store and web site.
+
+Ans :- 
+
+Input  - User's name, location, phone number, bank account details(for prepaid orders), pizza size, pizza toppings
+Output - Order details, Delivery time.

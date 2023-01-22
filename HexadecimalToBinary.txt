@@ -1,0 +1,32 @@
+1) Convert Hexadecimal - 24F to Binary .
+
+Ans:- 
+
+In numeral system, we know hexadecimal is base-16 and binary is base-2. To convert hexadecimal 24F to binary, we follow these steps:
+
+To do this, first convert hexadecimal into decimal, then the resulting decimal into binary - 
+
+1.Start from one's place in hexadecimal : multiply ones place with 16^0, tens place with 16^1, hundreds place with 16^2 and so on from right to left
+2.Add all the products we got from step 1 to get the decimal equivalent of given hexadecimal value.
+3.Then, divide decimal value we got from step-2 by 2 keeping notice of the quotient and the remainder.
+4.Continue dividing the quotient by 2 until you get a quotient of zero.
+5.Then just write out the remainders in the reverse order to get binary equivalent of decimal number.
+
+By using above steps if we convert 24F into decimal we get 591.
+
+Now, we have to convert 591 to binary
+
+591 / 2 = 295 with remainder 1
+295 / 2 = 147 with remainder 1
+147 / 2 = 73 with remainder 1
+73 / 2 = 36 with remainder 1
+36 / 2 = 18 with remainder 0
+18 / 2 = 9 with remainder 0
+9 / 2 = 4 with remainder 1
+4 / 2 = 2 with remainder 0
+2 / 2 = 1 with remainder 0
+1 / 2 = 0 with remainder 1
+
+Then just write down the remainders in the reverse order to get the answer, The hexadecimal number 24F converted to binary is therefore equal to : 1001001111
+
+
